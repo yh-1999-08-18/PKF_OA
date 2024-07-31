@@ -1,0 +1,23 @@
+.tabs {
+  width: 700rpx;
+  overflow: scroll;
+  height: 80rpx;
+  display: flex;
+  z-index: 100;
+  background-color: #ffffff;
+  white-space: nowrap;
+  padding: 20rpx 0 0;
+  margin: 0 auto;
+  text-align: center;
+  .item {
+    font-size: 30rpx;
+    display: inline-block;
+    .botMark {
+      width: 48rpx;
+      height: 8rpx;
+      margin: 16rpx auto 0;
+      background: #19b56a;
+      border-radius: 4rpx 4rpx 4rpx 4rpx;
+    }
+  }
+}

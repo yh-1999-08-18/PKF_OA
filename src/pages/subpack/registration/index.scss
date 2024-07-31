@@ -1,0 +1,186 @@
+.wrapper {
+  padding-top: 178rpx;
+  background-color: #f6f6f6;
+  .tabs {
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  .formContent {
+    padding-top: 140rpx;
+    padding-bottom: 630rpx;
+    .routine,
+    .client,
+    .vehicle {
+      background-color: #ffffff;
+      margin: 0 24rpx;
+      border-radius: 12rpx;
+      padding: 0 24rpx;
+      .formItem {
+        display: flex;
+        align-items: center;
+        height: 101rpx;
+        border-bottom: 2rpx solid #eeeeee;
+        .numContent {
+          width: 152rpx;
+          height: 48rpx;
+          display: flex;
+          align-items: center;
+          margin-left: auto;
+          justify-content: space-between;
+          z-index: 1;
+          .minus {
+            width: 48rpx;
+            height: 48rpx;
+            line-height: 40rpx;
+            background-color: #f6f6f6;
+            text-align: center;
+            font-weight: 500;
+            font-size: 50rpx;
+            color: #999999;
+            text-align: center;
+            font-style: normal;
+            text-transform: none;
+          }
+          .num {
+            width: 48rpx;
+            line-height: 48rpx;
+            background: #ffffff;
+            font-weight: 500;
+            font-size: 28rpx;
+            color: #111111;
+            text-align: center;
+            font-style: normal;
+            text-transform: none;
+          }
+          .add {
+            width: 48rpx;
+            background-color: #e7e7e7;
+            text-align: center;
+            line-height: 48rpx;
+            font-weight: 500;
+            font-size: 32rpx;
+            color: #333333;
+            text-align: center;
+            font-style: normal;
+            text-transform: none;
+          }
+        }
+        .label {
+          width: 252rpx;
+          font-size: 28rpx;
+          color: #555555;
+          line-height: 44rpx;
+          text-align: left;
+          font-style: normal;
+          text-transform: none;
+        }
+        .requred {
+          color: #f64042;
+        }
+        .inp {
+          width: 450rpx;
+          font-weight: 500;
+          font-size: 28rpx;
+          color: #111111;
+          line-height: 44rpx;
+          text-align: right;
+          font-style: normal;
+          text-transform: none;
+        }
+        .idCode,
+        .name {
+          width: 420rpx;
+          font-weight: 500;
+          font-size: 28rpx;
+          color: #111111;
+          line-height: 44rpx;
+          text-align: left;
+          font-style: normal;
+          text-transform: none;
+        }
+        .inpPlace {
+          font-weight: 500;
+          font-size: 28rpx;
+          color: #cccccc;
+          line-height: 44rpx;
+          text-align: right;
+          font-style: normal;
+          text-transform: none;
+        }
+        .search {
+          width: 24rpx;
+          height: 24rpx;
+          margin-left: 24rpx;
+        }
+        .scan {
+          width: 28rpx;
+          height: 28rpx;
+        }
+        .radioLabel {
+          font-weight: 500;
+          font-size: 28rpx;
+          color: #111111;
+          line-height: 36rpx;
+          text-align: center;
+          font-style: normal;
+          text-transform: none;
+        }
+        .picker {
+          display: flex;
+          align-items: center;
+        }
+        .weui-cells_checkbox .weui-icon-checked:before {
+          font-size: 32;
+          margin: "0 30rpx 0 40rpx";
+        }
+      }
+      .middle {
+        width: 702rpx;
+        height: 262rpx;
+        background: #ffffff;
+        border-radius: 12rpx;
+        .label {
+          display: flex;
+          font-weight: 400;
+          font-size: 28rpx;
+          color: #555555;
+          line-height: 101rpx;
+          text-align: left;
+          .requred {
+            color: #f64042;
+          }
+        }
+        .textArea {
+          width: 654rpx;
+          height: 128rpx;
+          background: #f6f6f6;
+          border-radius: 8rpx;
+          padding: 20rpx;
+          box-sizing: border-box;
+        }
+      }
+    }
+    .client {
+      margin: 26rpx 24rpx;
+    }
+    .submitBtn {
+      width: 650rpx;
+      height: 98rpx;
+      background: #19b56a;
+      border-radius: 49rpx 49rpx 49rpx 49rpx;
+      position: fixed;
+      bottom: 92rpx;
+      left: 50rpx;
+      right: 50rpx;
+      font-weight: 500;
+      font-size: 32rpx;
+      color: #ffffff;
+      text-align: center;
+      font-style: normal;
+      text-transform: none;
+      line-height: 98rpx;
+      z-index: 10;
+    }
+  }
+}

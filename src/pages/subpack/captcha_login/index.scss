@@ -1,0 +1,57 @@
+.wrapper {
+  .top {
+    width: 750rpx;
+    height: 640rpx;
+    background: linear-gradient(180deg, #f3fff9 0%, #ffffff 100%);
+    border-radius: 0rpx 0rpx 0rpx 0rpx;
+    padding-top: 1rpx;
+    .placeTitle {
+      width: 240rpx;
+      height: 64rpx;
+      font-weight: 500;
+      font-size: 48rpx;
+      color: #333333;
+      line-height: 64rpx;
+      text-align: center;
+      font-style: normal;
+      text-transform: none;
+      margin: 224rpx 256rpx 64rpx 254rpx;
+    }
+    .subTitle {
+      width: 252rpx;
+      height: 28rpx;
+      font-weight: 400;
+      font-size: 28rpx;
+      color: #999999;
+      line-height: 28rpx;
+      text-align: center;
+      font-style: normal;
+      text-transform: none;
+      margin: 0 250rpx 16rpx 248rpx;
+    }
+    .phoneNumber {
+      width: 300rpx;
+      height: 64rpx;
+      font-weight: 500;
+      font-size: 48rpx;
+      color: #333333;
+      line-height: 64rpx;
+      text-align: center;
+      font-style: normal;
+      text-transform: none;
+      margin: 0 226rpx 20rpx 224rpx;
+    }
+  }
+  .fetchCode {
+    width: 240rpx;
+    height: 28rpx;
+    font-weight: 400;
+    font-size: 28rpx;
+    color: #19b56a;
+    line-height: 28rpx;
+    text-align: center;
+    font-style: normal;
+    text-transform: none;
+    margin: 0 278rpx 0 276rpx;
+  }
+}

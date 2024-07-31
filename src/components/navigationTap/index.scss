@@ -1,0 +1,28 @@
+.wrappers {
+  width: 100%;
+  height: 176rpx;
+  padding-top: 1rpx;
+  z-index: 10;
+  top: 0;
+  .content {
+    width: 100%;
+    font-weight: 500;
+    font-size: 34rpx;
+    font-style: normal;
+    text-transform: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-top: 88rpx;
+    .navText {
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      line-height: 88rpx;
+    }
+    image {
+      width: 48rpx;
+      height: 88rpx;
+    }
+  }
+}

@@ -1,0 +1,107 @@
+.wrapper {
+  width: 750rpx;
+  height: 1624rpx;
+  background: #19b56a;
+  .contenter {
+    width: 702rpx;
+    height: 1128rpx;
+    border-radius: 26rpx;
+    margin: 160rpx auto 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    .phone {
+      width: 702rpx;
+      height: 328rpx;
+      background: #ffffff;
+      border-radius: 24rpx;
+      z-index: 3;
+      padding: 24rpx;
+      box-sizing: border-box;
+      .formItem {
+        display: flex;
+        width: 654rpx;
+        height: 101rpx;
+        justify-content: space-between;
+        border-bottom: 2rpx solid #eeeeee;
+        margin-bottom: 62rpx;
+        .label {
+          width: 273rpx;
+          font-family: PingFang SC, PingFang SC;
+          font-weight: 400;
+          font-size: 30rpx;
+          color: #555555;
+          line-height: 101rpx;
+          text-align: left;
+          font-style: normal;
+          text-transform: none;
+          .requerd {
+            color: #f64042;
+          }
+        }
+        .inp {
+          height: 101rpx;
+          font-weight: bold;
+          font-size: 30rpx;
+          color: #111111;
+          line-height: 101rpx;
+          text-align: right;
+        }
+        .inp-placeholder {
+          height: 101rpx;
+          font-weight: 500;
+          font-size: 30rpx;
+          color: #cccccc;
+          line-height: 101rpx;
+          text-align: right;
+        }
+      }
+      .formBtn {
+        width: 650rpx;
+        height: 98rpx;
+        background: #19b56a;
+        border-radius: 49rpx;
+        font-weight: 500;
+        font-size: 32rpx;
+        color: #ffffff;
+        line-height: 98rpx;
+        text-align: center;
+      }
+    }
+    .tolstText {
+      height: 36rpx;
+      font-weight: 500;
+      font-size: 28rpx;
+      color: #777777;
+      line-height: 36rpx;
+      text-align: center;
+      position: absolute;
+      bottom: 90rpx;
+      left: 168rpx;
+    }
+    .steerText {
+      margin: 76rpx 0 0 38rpx;
+      .first,
+      .second {
+        display: flex;
+        align-items: center;
+        margin-bottom: 34rpx;
+
+        image {
+          width: 32rpx;
+          height: 32rpx;
+          margin-right: 12rpx;
+        }
+        .text {
+          height: 40rpx;
+          font-weight: 500;
+          font-size: 28rpx;
+          color: #00331a;
+          line-height: 33rpx;
+          text-align: left;
+        }
+      }
+    }
+  }
+}

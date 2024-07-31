@@ -1,0 +1,69 @@
+.wrapper {
+  height: auto;
+  padding-top: 178rpx;
+  background-color: #f6f6f6;
+  position: relative;
+  .topContent {
+    position: fixed;
+    z-index: 1;
+    .topInput {
+      width: 750rpx;
+      height: 80rpx;
+      background-color: #ffffff;
+      position: relative;
+      padding: 12rpx 24rpx 0;
+      input {
+        width: 702rpx;
+        height: 76rpx;
+        background: #f3f3f3;
+        border-radius: 38rpx 38rpx 38rpx 38rpx;
+        box-sizing: border-box;
+        padding-left: 80rpx;
+      }
+      image {
+        width: 36rpx;
+        height: 36rpx;
+        position: absolute;
+        top: 32rpx;
+        left: 54rpx;
+        z-index: 10;
+      }
+      .placeHorderStyle {
+        font-weight: 400;
+        font-size: 30rpx;
+        color: #b7b7b7;
+        line-height: 32rpx;
+        text-align: left;
+        font-style: normal;
+        text-transform: none;
+      }
+    }
+    .tab {
+      width: 750rpx;
+      background-color: #ffffff;
+    }
+  }
+  .listContent {
+    padding: 200rpx 24rpx 24rpx;
+    margin-top: 0rpx !important;
+    min-height: 1200rpx;
+  }
+  .emptyWrap {
+    width: 220rpx;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .empty {
+      width: 220rpx;
+      height: 184.6rpx;
+    }
+    .emptyText {
+      font-weight: 400;
+      font-size: 28rpx;
+      color: #777777;
+      line-height: 30rpx;
+      text-align: center;
+    }
+  }
+}

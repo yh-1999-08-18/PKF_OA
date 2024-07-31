@@ -1,0 +1,76 @@
+{
+  "name": "saleManage_App",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "templateInfo": {
+    "name": "taro-hooks@2x",
+    "typescript": false,
+    "css": "Sass",
+    "framework": "React"
+  },
+  "scripts": {
+    "build:weapp": "taro build --type weapp",
+    "build:h5": "taro build --type h5",
+    "dev:weapp": "npm run build:weapp -- --watch",
+    "dev:h5": "npm run build:h5 -- --watch"
+  },
+  "browserslist": [
+    "last 3 versions",
+    "Android >= 4.1",
+    "ios >= 8"
+  ],
+  "author": "",
+  "dependencies": {
+    "@babel/runtime": "^7.7.7",
+    "@qiun/ucharts": "^2.5.0-20230101",
+    "@taro-hooks/plugin-react": "2",
+    "@taro-hooks/shared": "2",
+    "@tarojs/components": "3.6.26",
+    "@tarojs/helper": "3.6.26",
+    "@tarojs/plugin-framework-react": "3.6.26",
+    "@tarojs/plugin-platform-h5": "3.6.26",
+    "@tarojs/plugin-platform-weapp": "3.6.26",
+    "@tarojs/react": "3.6.26",
+    "@tarojs/runtime": "3.6.26",
+    "@tarojs/shared": "3.6.26",
+    "@tarojs/taro": "3.6.26",
+    "@visactor/taro-vchart": "^1.11.0",
+    "axios": "^0.27.2",
+    "axios-miniprogram-adapter": "^0.3.4",
+    "mobx": "^6.12.3",
+    "mobx-react": "^9.1.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "styled-components": "^6.1.8",
+    "taro-hooks": "2",
+    "taro-ui": "^3.3.0",
+    "weapp-qrcode": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.0",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.5",
+    "@tarojs/cli": "3.6.26",
+    "@tarojs/taro-loader": "3.6.26",
+    "@tarojs/webpack5-runner": "3.6.26",
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.0",
+    "@types/webpack-env": "^1.13.6",
+    "babel-plugin-import": "^1.13.3",
+    "babel-preset-taro": "3.6.26",
+    "eslint": "^8.12.0",
+    "eslint-config-taro": "3.6.26",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-react": "^7.8.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "postcss": "^8.4.18",
+    "react-refresh": "^0.11.0",
+    "stylelint": "9.3.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.1.0",
+    "webpack": "^5.78.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}

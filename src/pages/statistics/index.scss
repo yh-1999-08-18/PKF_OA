@@ -1,0 +1,270 @@
+.wrapper {
+  background-color: #f6f6f6;
+  width: 750rpx;
+  padding-top: 1rpx;
+  padding-bottom: 24rpx;
+  position: relative;
+  box-sizing: border-box;
+  .wrapTop {
+    width: 750rpx;
+    height: 88rpx;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .title {
+    height: 88rpx;
+    font-weight: bold;
+    font-size: 40rpx;
+    color: #111111;
+    line-height: 88rpx;
+    text-align: left;
+    padding: 0 24rpx;
+    background-color: #ffffff;
+  }
+  .dataSeclect {
+    width: 750rpx;
+    height: 96rpx;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 0 24rpx;
+    font-weight: 400;
+    font-size: 30rpx;
+    color: #111111;
+    line-height: 96rpx;
+    text-align: left;
+    box-sizing: border-box;
+    margin-bottom: 24rpx;
+    .down {
+      width: 24rpx;
+      height: 24rpx;
+      margin-left: 16rpx;
+    }
+    .dataIcon,
+    .calendarIcon {
+      margin: 0 8rpx 0 0;
+      width: 30rpx;
+      height: 30rpx;
+      vertical-align: middle;
+    }
+  }
+  .chartContent {
+    width: 750rpx;
+    height: 446rpx;
+    background: #ffffff;
+    position: relative;
+    .chartTitle {
+      width: 750rpx;
+      height: 112rpx;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .leftTitle {
+        display: flex;
+        align-items: center;
+        .titleIcon {
+          width: 8rpx;
+          height: 34rpx;
+          background: #19b56a;
+          margin-right: 16rpx;
+        }
+        .titleText {
+          font-weight: 500;
+          font-size: 34rpx;
+          color: #000000;
+          line-height: 112rpx;
+          text-align: right;
+        }
+      }
+      .rightTitle {
+        display: flex;
+        align-items: center;
+        padding-right: 24rpx;
+
+        .lenged {
+          width: 24rpx;
+          height: 16rpx;
+          background: #19b56a;
+          margin-right: 14rpx;
+        }
+        .noLenged {
+          width: 24rpx;
+          height: 16rpx;
+          background: #d2f0e2;
+          margin: 0 14rpx 0 48rpx;
+        }
+        .lengedTitle {
+          font-weight: 500;
+          font-size: 24rpx;
+          color: #111111;
+          line-height: 44rpx;
+          text-align: left;
+        }
+      }
+    }
+    .content {
+      display: flex;
+      .left {
+        width: 50%;
+        height: 100%;
+      }
+      .right {
+        width: 320rpx;
+        height: 268rpx;
+        .top,
+        .bottom {
+          width: 320rpx;
+          height: 124rpx;
+          background: #f6f6f6;
+          border-radius: 12rpx;
+          padding: 16rpx 20rpx;
+          box-sizing: border-box;
+          .topTitle {
+            font-weight: 400;
+            font-size: 24rpx;
+            color: #000000;
+            line-height: 44rpx;
+            text-align: left;
+          }
+          .dayText {
+            display: flex;
+            .num {
+              font-weight: bold;
+              font-size: 34rpx;
+              color: #000000;
+              line-height: 44rpx;
+              text-align: left;
+            }
+            .elssd {
+              font-weight: 400;
+              font-size: 24rpx;
+              color: #777777;
+              line-height: 44rpx;
+              text-align: left;
+              margin: 0 10rpx 0 42rpx;
+            }
+            .days {
+              font-weight: 500;
+              font-size: 24rpx;
+              color: #19b56a;
+              line-height: 44rpx;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+  .briefing {
+    width: 750rpx;
+    height: 266rpx;
+    background: #ffffff;
+    margin-top: 24rpx;
+    padding: 22rpx 22rpx 0 0;
+    box-sizing: border-box;
+    .down {
+      width: 24rpx;
+      height: 24rpx;
+      margin-left: 16rpx;
+    }
+    .info {
+      width: 702rpx;
+      height: 160rpx;
+      background: #e7f6ef;
+      border-radius: 8rpx;
+      margin: 16rpx 24rpx;
+      padding: 16rpx;
+      box-sizing: border-box;
+      display: flex;
+      .todayNum {
+        width: 176rpx;
+        height: 128rpx;
+        background: #ffffff;
+        box-shadow: 0rpx 8rpx 8rpx 0rpx #c6eddb;
+        border-radius: 12rpx;
+        padding: 18rpx;
+        box-sizing: border-box;
+        .num {
+          font-weight: bold;
+          font-size: 36rpx;
+          color: #19b56a;
+          line-height: 44rpx;
+          text-align: center;
+        }
+        .sub {
+          font-weight: 400;
+          font-size: 24rpx;
+          color: #777777;
+          line-height: 44rpx;
+          text-align: center;
+        }
+      }
+      .tabList {
+        width: 466rpx;
+        height: 128rpx;
+        padding: 18rpx;
+        display: flex;
+        justify-content: space-between;
+        .tabItem {
+          .nums {
+            height: 44rpx;
+            font-weight: bold;
+            font-size: 36rpx;
+            color: #111111;
+            line-height: 44rpx;
+            text-align: center;
+          }
+          .subs {
+            height: 44rpx;
+            font-weight: 400;
+            font-size: 24rpx;
+            color: #777777;
+            line-height: 44rpx;
+            text-align: center;
+          }
+        }
+      }
+    }
+    .chartTitle {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .leftTitle {
+        display: flex;
+        align-items: center;
+        .titleIcon {
+          width: 8rpx;
+          height: 34rpx;
+          background: #19b56a;
+          margin-right: 16rpx;
+        }
+        .titleText {
+          font-weight: 500;
+          font-size: 34rpx;
+          color: #000000;
+          text-align: right;
+        }
+      }
+      .rightTitle {
+        height: 44rpx;
+        font-weight: 400;
+        font-size: 20rpx;
+        color: #000000;
+        line-height: 44rpx;
+        text-align: right;
+      }
+    }
+  }
+  .lineChartContent {
+    width: 750rpx;
+    height: 500rpx;
+    background: #ffffff;
+    margin-top: 24rpx;
+  }
+  .charts {
+    position: absolute;
+    bottom: 30rpx;
+  }
+}

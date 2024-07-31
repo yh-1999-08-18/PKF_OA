@@ -1,0 +1,129 @@
+.modalWrap {
+  width: 750rpx;
+  height: 1624rpx;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  .modal-mask {
+    width: 750rpx;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .modal-contents {
+    width: 630rpx;
+    height: 548rpx;
+    background: #ffffff;
+    border-radius: 24rpx 24rpx 24rpx 24rpx;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .content {
+      image {
+        width: 184rpx;
+        height: 152rpx;
+        margin: 60rpx 224rpx 0;
+      }
+      .l_title {
+        height: 44rpx;
+        font-weight: bold;
+        font-size: 32rpx;
+        color: #111111;
+        line-height: 38rpx;
+        text-align: center;
+        margin: 48rpx 0 12rpx 0;
+      }
+      .title {
+        height: 56rpx;
+        font-weight: bold;
+        font-size: 40rpx;
+        color: #19b56a;
+        line-height: 47rpx;
+        text-align: center;
+        margin: 26rpx 0 16rpx;
+      }
+      .subTitle {
+        font-weight: 400;
+        font-size: 24rpx;
+        color: #111111;
+        line-height: 28rpx;
+        text-align: center;
+        font-style: normal;
+        text-transform: none;
+      }
+      .l_subTitle {
+        height: 36rpx;
+        font-weight: 400;
+        font-size: 26rpx;
+        color: #19b56a;
+        line-height: 30rpx;
+        text-align: center;
+      }
+    }
+    .modal-btns {
+      display: flex;
+      position: absolute;
+      bottom: 0;
+      .modal-btn-sure,
+      .modal-btn-cancel {
+        width: 314rpx;
+        height: 96rpx;
+        background-color: #ffffff;
+        text-align: center;
+        line-height: 96rpx;
+        font-weight: 400;
+        font-size: 32rpx;
+        color: #19b56a;
+      }
+    }
+
+    .modal-btn > .modal-btn-sure {
+      width: 384rpx;
+      height: 88rpx;
+      border-radius: 49rpx 49rpx 49rpx 49rpx;
+      border: 1rpx solid #19b56a;
+      font-weight: 500;
+      font-size: 32rpx;
+      color: #19b56a;
+      line-height: 88rpx;
+      text-align: center;
+      font-style: normal;
+      text-transform: none;
+      position: absolute;
+      bottom: 56rpx;
+      left: 124rpx;
+      right: 124rpx;
+      background: #ffffff;
+    }
+    .modal-btn > .modal-btn-sure {
+      width: 384rpx;
+      height: 88rpx;
+      border-radius: 49rpx 49rpx 49rpx 49rpx;
+      border: 1rpx solid #19b56a;
+      font-weight: 500;
+      font-size: 32rpx;
+      color: #19b56a;
+      line-height: 88rpx;
+      text-align: center;
+      font-style: normal;
+      text-transform: none;
+      position: absolute;
+      bottom: 56rpx;
+      left: 124rpx;
+      right: 124rpx;
+      background: #ffffff;
+    }
+  }
+
+  .modal-close {
+    width: 50rpx;
+    height: 50rpx;
+    position: absolute;
+    bottom: 492rpx;
+    left: 350rpx;
+    right: 350rpx;
+  }
+}

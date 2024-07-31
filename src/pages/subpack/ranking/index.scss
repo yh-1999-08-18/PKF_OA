@@ -1,0 +1,239 @@
+.wrapper {
+  width: 750rpx;
+  min-height: 1624rpx;
+  background-image: url("https://post.pkfeng.net/assets/ranking/bg.png");
+  background-size: 100% 74%;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 1rpx;
+
+  .title {
+    width: 214rpx;
+    height: 46rpx;
+    font-weight: 500;
+    font-size: 26rpx;
+    color: #ffffff;
+    line-height: 45rpx;
+    text-shadow: 0px 2px 2px #52c08b;
+    text-align: left;
+    position: absolute;
+    top: 276rpx;
+    left: 52rpx;
+  }
+  .listContent {
+    width: 702rpx;
+    height: auto;
+    border-radius: 12rpx;
+    margin: 0 auto;
+    margin-top: 410rpx;
+    padding-bottom: 30rpx;
+    .tabContent {
+      background: #ffffff;
+      padding: 30rpx 24rpx 0rpx 24rpx;
+      box-sizing: border-box;
+      padding-bottom: 1rpx;
+
+      .listHead {
+        font-weight: 400;
+        font-size: 26rpx;
+        color: #777777;
+        line-height: 36rpx;
+        letter-spacing: 1px;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 24rpx;
+        .leftHead {
+          display: flex;
+        }
+      }
+      .listItem {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 24rpx;
+
+        .item_l {
+          display: flex;
+          align-items: center;
+          .serial {
+            width: 64rpx;
+            height: 64rpx;
+            background: #eef2f0;
+            font-weight: 300;
+            font-size: 26rpx;
+            color: #777777;
+            line-height: 48rpx;
+            text-align: center;
+            margin-right: 24rpx;
+            padding: 7rpx;
+            box-sizing: border-box;
+          }
+          image {
+            width: 64rpx;
+            height: 64rpx;
+            margin-right: 24rpx;
+          }
+          .info {
+            .name {
+              height: 44rpx;
+              font-weight: 500;
+              font-size: 30rpx;
+              color: #111111;
+              line-height: 44rpx;
+              text-align: left;
+            }
+            .posts {
+              height: 44rpx;
+              font-weight: 400;
+              font-size: 24rpx;
+              color: #777777;
+              line-height: 44rpx;
+              text-align: left;
+            }
+          }
+        }
+        .item_r {
+          .num {
+            height: 44rpx;
+            font-weight: bold;
+            font-size: 34rpx;
+            color: #19b56a;
+            line-height: 44rpx;
+            text-align: right;
+            text {
+              font-size: 20rpx;
+            }
+          }
+          .tit {
+            height: 44rpx;
+            font-weight: 400;
+            font-size: 24rpx;
+            color: #777777;
+            line-height: 44rpx;
+            text-align: right;
+          }
+        }
+      }
+    }
+    .at-tabs__header {
+      align-items: flex-end;
+      background-color: rgba(0, 0, 0, 0);
+    }
+    .at-tabs__item--active {
+      width: 350rpx;
+      height: 90rpx;
+      background: #ffffff;
+      font-weight: 500;
+      font-size: 30rpx;
+      color: #111111;
+      line-height: 96rpx;
+      text-align: center;
+      border-top-left-radius: 12rpx;
+      border-top-right-radius: 12rpx;
+      padding: 0;
+    }
+    .selfInfo {
+      width: 702rpx;
+      height: 112rpx;
+      background: #19b56a;
+      border-radius: 12rpx;
+      padding: 14rpx 24rpx;
+      box-sizing: border-box;
+      position: fixed;
+      bottom: 100rpx;
+      .listItem {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 24rpx;
+        .item_l {
+          display: flex;
+          align-items: center;
+          .serial {
+            width: 64rpx;
+            height: 64rpx;
+            background: #ffffff;
+            font-weight: 300;
+            font-size: 26rpx;
+            color: #19b56a;
+            line-height: 48rpx;
+            text-align: center;
+            margin-right: 24rpx;
+            padding: 7rpx;
+            box-sizing: border-box;
+          }
+          image {
+            width: 64rpx;
+            height: 64rpx;
+            margin-right: 24rpx;
+          }
+          .info {
+            .name {
+              height: 44rpx;
+              font-weight: 500;
+              font-size: 30rpx;
+              color: #ffffff;
+              line-height: 44rpx;
+              text-align: left;
+            }
+            .posts {
+              height: 44rpx;
+              font-weight: 400;
+              font-size: 24rpx;
+              color: #ffffff;
+              line-height: 44rpx;
+              text-align: left;
+            }
+          }
+        }
+        .item_r {
+          .num {
+            height: 44rpx;
+            font-weight: bold;
+            font-size: 34rpx;
+            color: #ffffff;
+            line-height: 44rpx;
+            text-align: right;
+            text {
+              font-size: 20rpx;
+            }
+          }
+          .tit {
+            height: 44rpx;
+            font-weight: 400;
+            font-size: 24rpx;
+            color: #ffffff;
+            line-height: 44rpx;
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+  .at-tabs__item {
+    width: 350rpx;
+    height: 70rpx;
+    background: linear-gradient(354deg, #ffffff 0%, #aaf4d1 100%);
+    font-weight: 400;
+    font-size: 30rpx;
+    color: #555555;
+    line-height: 70rpx;
+    text-align: center;
+    padding: 0;
+  }
+  .at-tabs__item:nth-child(1) {
+    border-top-left-radius: 12rpx;
+  }
+  .at-tabs__item:nth-child(2) {
+    border-top-right-radius: 12rpx;
+  }
+  .at-tabs__underline {
+    background-color: #ffffff;
+  }
+  .at-tabs__item-underline {
+    width: 68rpx;
+    height: 6rpx;
+    background: #19b56a;
+    border-radius: 8rpx;
+    margin: 0 146rpx;
+  }
+}

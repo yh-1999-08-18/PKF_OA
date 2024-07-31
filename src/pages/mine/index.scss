@@ -1,0 +1,90 @@
+.wrapper {
+  background-color: #f6f6f6;
+  position: relative;
+  .top {
+    width: 750rpx;
+    height: 330rpx;
+    background-image: url("https://post.pkfeng.net/assets/home/mineBg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 148rpx;
+    .head {
+      display: flex;
+      height: 128rpx;
+      padding: 0 42rpx;
+      .left {
+        width: 128rpx;
+        margin-right: 24rpx;
+        image {
+          width: 128rpx;
+          height: 128rpx;
+        }
+      }
+      .right {
+        padding-top: 10rpx;
+        .name {
+          height: 56rpx;
+          font-weight: bold;
+          font-size: 40rpx;
+          color: #00331a;
+          line-height: 56rpx;
+          text-align: left;
+          margin-bottom: 16rpx;
+        }
+        .department {
+          height: 36rpx;
+          font-weight: 400;
+          font-size: 26rpx;
+          color: #00331a;
+          line-height: 36rpx;
+          text-align: left;
+          display: flex;
+          align-items: center;
+          .partition {
+            margin: 0 16rpx;
+          }
+        }
+      }
+    }
+  }
+  .middle {
+    width: 750rpx;
+    height: 1130rpx;
+    border-radius: 50rpx;
+    background-color: #ffffff;
+    position: absolute;
+    top: 330rpx;
+    left: 0;
+    padding: 20rpx 32rpx;
+    box-sizing: border-box;
+    .itemTab {
+      width: 686rpx;
+      height: 125rpx;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2rpx solid #eeeeee;
+      .left {
+        width: 80%;
+        display: flex;
+        image {
+          width: 40rpx;
+          height: 40rpx;
+          margin-right: 24rpx;
+        }
+        .text {
+          font-weight: 500;
+          font-size: 32rpx;
+          color: #00331a;
+          text-align: left;
+        }
+      }
+      .right {
+        image {
+          width: 24rpx;
+          height: 24rpx;
+        }
+      }
+    }
+  }
+}
